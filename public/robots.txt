@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://www.zandyne.xyz/sitemap.xml
+Sitemap: https://zandyne.xyz/sitemap.xml
