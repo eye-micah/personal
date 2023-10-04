@@ -28,7 +28,7 @@ jobs:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
 
       - name: Install ssh stuff
-        run: sudo apt install -y openssh-client
+        run: sudo apt install -y --install-recommends rsync openssh-client
       
       - name: Install rsync snap?
         run: sudo snap install rsync
