@@ -26,6 +26,7 @@ jobs:
         run: mkdir -p ~/.ssh/ && ssh-keyscan -p 22 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+
      
       - name: Deploy the website
         run: rsync -avx -e 'ssh -p 5555' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
