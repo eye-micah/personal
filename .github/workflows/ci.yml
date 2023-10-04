@@ -29,10 +29,13 @@ jobs:
         run: mkdir -p ~/.ssh/ && ssh-keyscan -p 22 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+      
+      - name: Make script executable
+        run: chmod +x ./rsync.sh
 
       - name: Deploy the website
         run: | 
-          rsync -avx -e 'ssh -p 22' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
+          ./rsync.sh
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
