@@ -26,9 +26,6 @@ jobs:
         run: mkdir -p ~/.ssh/ && ssh-keyscan -p 22 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
-
-      - name: Install ssh stuff
-        run: sudo apt install -y --install-recommends rsync openssh-client
      
       - name: Deploy the website
         run: rsync -avx --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
