@@ -26,6 +26,9 @@ jobs:
         run: mkdir -p ~/.ssh/ && ssh-keyscan -p 22 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+
+      - name: Install ssh stuff
+        run: sudo apt install -y openssh-clients
       
       - name: Install rsync snap?
         run: sudo snap install rsync
