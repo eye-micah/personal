@@ -16,9 +16,6 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-      - name: Install rsync
-        run: sudo apt install rsync
-
       - name: Install Zola
         run: sudo snap install zola --edge
 
@@ -35,7 +32,7 @@ jobs:
 
       - name: Deploy the website
         run: | 
-          ./rsync.sh
+          rsync -avx --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
