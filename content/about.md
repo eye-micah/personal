@@ -1,7 +1,7 @@
 +++
 title = "About"
 +++
-Black weeb in their early 20s. Gender is a fuck, I don't particularly care to label myself. Left-ish flexible politics. 
+Black weeb in their early 20s. Don't care too much about gender. Leftist. 
 
 I love Linux.
 
