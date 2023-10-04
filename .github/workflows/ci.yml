@@ -29,10 +29,8 @@ jobs:
 
       - name: Install ssh stuff
         run: sudo apt install -y --install-recommends rsync openssh-client
-      
-      - name: Install rsync snap?
-        run: sudo snap install rsync
-      
+     
+    
       - name: Deploy the website
         run: | 
           rsync -avx --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
