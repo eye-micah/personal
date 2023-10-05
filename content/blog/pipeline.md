@@ -35,7 +35,7 @@ While before I had been around more conservative, white cultures due to where el
 
 > They think racism is real... and yet all they talk about is race!
 
-Simple, logical conclusions you can reach from watching too much Steven Crowder and Ben Shapiro, pretty mild neoconservative types that got a stranglehold on 2010s YouTube. It's not a coherent ideology, it's just pointing and laughing at people that are framed as silly through dishonest framing.
+Simple, logical conclusions you can reach from watching too much Steven Crowder and Ben Shapiro, pretty mild neoconservative types that got a stranglehold on 2010s YouTube. It's not a coherent ideology, it's just pointing and laughing at people that are framed as silly dishonestly.
 
 **Eventually, though, I started to get curious: What exactly ARE these people's beliefs?**
 
