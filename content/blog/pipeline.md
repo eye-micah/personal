@@ -18,7 +18,7 @@ Same thing applies to politics at that age.
 
 The vast majority of middle-class teens in America aren't really endowed with years of experience working and engaging with the real world. When there are really no consequences to strong opinions you pick up on the Internet, it becomes real easy to get sucked into an unhealthy feedback loop of bad takes.
 
-If you're a fucking loser like I was in high school, you probably don't have a lot to boast or show off. Fashion isn't really something a lot of teens care about, and you can't even get academic clout because you're just above average and not top of class. That's a lot of kids, and for a lot of kids, the way they stand out -- the way they feel a sense of belonging with a larger group -- is by seeing smug videos with politics contrary to what they hear around them and following suit.
+If you're a fucking loser like I was in high school, you probably don't have a lot to boast or show off. Fashion isn't really something some teens (especially those dealing with poverty) care about, and you can't even get academic clout because you're just above average and not top of class. That's a lot of kids, and for a lot of kids, the way they stand out -- the way they feel a sense of belonging with a larger group -- is by seeing smug videos with politics contrary to what they hear around them and following suit.
 
 It's opening YouTube in 2015 to watch Ben Shapiro own stupid latte-drinking college students.
  
