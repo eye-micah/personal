@@ -1,6 +1,6 @@
 +++
 title = "Beware of the pipeline"
-date = 2020-09-28
+date = 2020-10-05
 [taxonomies]
 tags = [ 'politics', 'niggatry' ]
 +++
