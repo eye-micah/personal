@@ -2,7 +2,7 @@
 title = "My thoughts on the Steam Deck"
 date = 2020-10-06
 [taxonomies]
-tags = [ 'foss', 'linux', 'video games' ]
+tags = [ 'foss', 'linux', 'games' ]
 +++
 
 The Steam Deck is Valve's newest piece of tech, built on a [long history](https://www.gamingonlinux.com/2018/09/an-interview-with-the-developer-of-dxvk-part-of-what-makes-valves-steam-play-tick/) of open source technology.
