@@ -2,7 +2,7 @@
 title = "Why I kinda like Macs"
 date = 2023-10-12
 [taxonomies]
-tags = [ 'mac', 'linux', 'unix' ]
+tags = [ 'mac', 'linux', 'unix', 'tech' ]
 +++
 
 So I've recently ended up using a lot of Macs due to work. Not just MacBooks, but iMacs. They range from current gen M1s and M2s to ancient 2012 MacBooks. 
