@@ -19,7 +19,7 @@ Macs all have a nice aluminum finish to them that makes them feel very premium a
 
 The keyboards nowadays are quite good. They're, again, not as good as a ThinkPad keyboard, and lack the incredibly useful trackpoint, but there are so many other advantages that it doesn't really matter to me. I personally prefer keyboards with a bit more travel, but at minimum it's a huge improvement from the weird feel and travel of the older Intel MacBooks in that weird phase.
 
-Apple Silicon is a really hard truth to accept, as someone that cares quite a bit about repairability and openness in hardware. There's no real way to upgrade storage or RAM on Apple Silicon SoCs. This means once your M1 Mac becomes old and obsolete, there's not much you can do if you didn't spend the premium on more RAM and storage. The trade off, of course, is improved speed, but I'm not sure if it's a worthy tradeoff.
+Apple Silicon is a really hard truth to accept, as someone that cares quite a bit about repairability and openness in hardware. There's no real way to upgrade storage or RAM on Apple Silicon SoCs. This means once your M1 Mac becomes old and obsolete, there's not much you can do if you didn't spend the premium on more RAM and storage. The trade off, of course, is improved speed, but I'm not sure if it's a worthy sacrifice.
 
 The battery life and performance is absolutely absurd on these machines nowadays, so while it feels disgusting and sinful to me, the usability of these laptops ramps up incredibly well. At home, I have a bulky full ATX tower eating up space and making noise in my room. It's not the loudest thing ever. It's got a Noctua air cooler and Arctic PST PWM cast fans (which are a bit annoying). But, M1/M2 Macs are *silent*. I can go to bed and not hear a single thing, and that's nice. They can fit into a smaller form factor and be passively cooled, which makes me dream of the day I can rest a mini-sized PC on my desk with performance on par with my current gaming PC.
 
@@ -73,7 +73,7 @@ I don't love or even like Apple as a company. They provide proprietary, walled-g
 
 They charge extravagant prices for their hardware and have a spotty track record that's only now kind of bouncing back to where it was.
 
-Despite this, I think macOS has become a pretty usable product for personal desktop use. If you need some specific legacy software, sure, go ahead and use Windows. If you need Samba shares, USE WINDOWS, PLEASE. If you need a more flexible and integrated development environment, or if you don't want to lose out on flexibility, feel free to use desktop Linux. But honestly, for the most part, this shit "just works."
+Despite this, I think macOS has become a pretty usable product for personal desktop use. If you need some specific legacy software, sure, go ahead and use Windows. If you need Samba shares, USE WINDOWS, PLEASE. If you need a more integrated development environment, or if you don't want to lose out on flexibility, feel free to use desktop Linux. But honestly, for the most part, this shit "just works."
 
 
 
