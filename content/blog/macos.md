@@ -27,9 +27,9 @@ The battery life and performance is absolutely absurd on these machines nowadays
 
 ## Software
 
-I think there are some things that are incredibly well thought-out about macOS. One of the things I actually really love is the difference in approach to keyboard shortcuts. On Windows and Linux, you have to memorize a bunch of unintuitive keyboard shortcuts revolving around the Super/Meta/Windows key. They're not consistent or intuitive, and rely entirely on muscle memory. The other day, in fact, I was working on a Windows machine when it prompted me to input CTRL+ALT+Delete in order to change the soon-to-expire password as per organization group policy. Kinda had to take a step back and realize "what the hell?"
+I think there are some things that are incredibly well thought-out about macOS. One of the things I actually really love is the difference in approach to keyboard shortcuts. On Windows and Linux, you have to memorize a bunch of unintuitive keyboard shortcuts revolving around the Super/Meta/Windows key. They're not consistent or intuitive, in my opinion. The other day, in fact, I was working on a Windows machine when it prompted me to input CTRL+ALT+Delete in order to change the soon-to-expire password as per organization group policy. Kinda had to take a step back and realize "what the hell?"
 
-One of the things I love is how reliable the ⌘ C and ⌘V shortcuts are on Mac. Makes copy-pasting into terminals a dream, since you no longer have to awkwardly hit Shift+Ctrl+C or Shift+Ctrl+V to interact with content on the terminal. It's the little things that count.
+One of the things I love is how reliable the ⌘C and ⌘V shortcuts are on Mac. Makes copy-pasting into terminals a dream, since you no longer have to awkwardly hit Shift+Ctrl+C or Shift+Ctrl+V to interact with content on the terminal. It's the little things that count.
 
 macOS has had large chunks of its filesystem read-only since Catalina, and that's also a really good choice, in my opinion. I'm a huge fan of immutable operating systems and think they offer benefits to stability and possibly even security. Apple issues out image-based updates in the same vein as iOS, Android, Chrome OS, and most immutable Linux distros, and I think this is the right call rather than the clunky experience that Windows and mutable Linux distros offer a lot of the time.
 
@@ -73,7 +73,7 @@ I don't love or even like Apple as a company. They provide proprietary, walled-g
 
 They charge extravagant prices for their hardware and have a spotty track record that's only now kind of bouncing back to where it was.
 
-Despite this, I think macOS has become a pretty usable product for personal desktop use. If you need some specific legacy software, sure, go ahead and use Windows. If you need Samba shares, USE WINDOWS, PLEASE. If you need a more flexible and integrated development environment, or if you don't want to lose out on usability and flexibility, feel free to use desktop Linux. But honestly, for the most part, this shit "just works."
+Despite this, I think macOS has become a pretty usable product for personal desktop use. If you need some specific legacy software, sure, go ahead and use Windows. If you need Samba shares, USE WINDOWS, PLEASE. If you need a more flexible and integrated development environment, or if you don't want to lose out on flexibility, feel free to use desktop Linux. But honestly, for the most part, this shit "just works."
 
 
 
