@@ -1,6 +1,6 @@
 +++
 title = "My disconnect from Black culture -- and how I reclaimed it"
-date = 2020-09-22
+date = 2023-09-22
 [taxonomies]
 tags = [ 'niggatry', 'politics' ]
 +++

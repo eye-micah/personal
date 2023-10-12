@@ -1,6 +1,6 @@
 +++
 title = "FOSS apps you should be using"
-date = 2020-10-05
+date = 2023-10-05
 [taxonomies]
 tags = [ 'foss' ]
 +++

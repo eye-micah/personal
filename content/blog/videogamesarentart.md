@@ -1,6 +1,6 @@
 +++
 title = "Video games aren't art"
-date = 2020-09-28
+date = 2023-09-28
 [taxonomies]
 tags = [ 'games' ]
 +++

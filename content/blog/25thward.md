@@ -1,6 +1,6 @@
 +++
 title = "The 25th Ward - The Silver Case: Suda's Glorious Mess"
-date = 2020-09-24
+date = 2023-09-24
 [taxonomies]
 tags = [ 'games', 'visual novels' ]
 +++

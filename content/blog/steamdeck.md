@@ -1,6 +1,6 @@
 +++
 title = "My thoughts on the Steam Deck"
-date = 2020-10-06
+date = 2023-10-06
 [taxonomies]
 tags = [ 'foss', 'linux', 'games' ]
 +++

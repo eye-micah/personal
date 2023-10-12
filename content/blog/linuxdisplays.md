@@ -1,6 +1,6 @@
 +++
 title = "Linux display headaches - Why I'm stuck on Wayland"
-date = 2020-09-26
+date = 2023-09-26
 [taxonomies]
 tags = [ 'foss', 'linux', 'tech' ]
 +++
