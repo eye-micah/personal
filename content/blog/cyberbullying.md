@@ -19,4 +19,4 @@ And, no, I'm not saying that online communities are a replacement for offline fr
 
 When people are blamed for taking drastic actions -- like self-harm or worse -- from cyberbullying, it's not something we should downplay as being as simple as "turn off the computer". Honestly, a lot of the time, that makes things worse as an entire angle of socialization may now have disappeared for someone.
 
-If you go to a Christian school or a heavily Christian workplace and come home to Christian family or friends, knowing damn well that they wouldn't approve of you being gay, what space do you have but the Discordserver you have with friends that lets you shoot the shit and say what's on your mind? Would you really give up that space because one or two people push your buttons?
+If you go to a Christian school or a heavily Christian workplace and come home to Christian family or friends, knowing damn well that they wouldn't approve of you being gay, what space do you have but the Discord server you have with friends that lets you shoot the shit and say what's on your mind? Would you really give up that space because one or two people push your buttons?
