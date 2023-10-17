@@ -1,30 +1,12 @@
 +++
 +++
 
-# The Black Weeb's Site
+**<p align="center"><font size="+5"><span style="color:red"> The</span><span style="color:black"> Black</span><span style="color:green"> Weeb's</span><span style="color:black"> Site</span></font></p>**
 
-> どうしていままで気がつかなかったんだろう。
->
-> ああ――――今夜はこんなにも
->
-> 気がつけば　見知らぬ人は目の前で。
->
-> 音もないまま、どすん、と痛みがはしった。
->
-> それは胸のさなか。
->
-> 開かれて踊るヴェールのように。
->
-> なにも　見えない。
->
-> 世界がだんだん消えていく。
->
-> その中で　ずっとキレイに輝いてる。
->
-> ああ―――気がつかなかった。
->
-> 今夜はこんなにも
->
-> 月が、綺麗―――――――だ――――
+<p align="center" width="100%" length="100%">
+<img src="illmatic.jpg">
+</p>
 
-![arcueid](https://static.wikia.nocookie.net/typemoon/images/f/fc/Arc-wait.png)
+
+
+
