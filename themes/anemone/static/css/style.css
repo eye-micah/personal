@@ -1,27 +1,27 @@
 :root,
 :root.light {
-  --bgColor: #EEEEEE;
-  --fgColor: #41474E;
-  --metaColor: #D26878;
+  --bgColor: #f5eeeb;
+  --fgColor: #645240;
+  --metaColor: #8ab3b5;
   --headColor: #;
-  --linkColor: #5690AF;
+  --linkColor: #8ab3b5;
   --hovColor: #22453F;
   --bgSelect: #FFFAE1;
   --bgUrl: url(https://i.ibb.co/Qpkrw4V/tile-Light.webp) repeat;
-  --red: #D26878;
-  --dimRed: #623039;
-  --orange: #e08f67;
-  --dimOrange: #926048;
-  --yellow: #FFFAE1;
-  --dimYellow: #D5C5A1;
-  --green: #56AFA0;
-  --dimGreen: #22453F;
-  --blue: #5690AF;
-  --dimBlue: #223844;
-  --purple: #9271D6;
-  --dimPurple: #47356C;
-  --grey: #CBCDCD;
-  --dimGrey: #646868
+  --red: #cb6077;
+  --dimRed: #cb6077;
+  --orange: #f4bc87;
+  --dimOrange: #f4bc87;
+  --yellow: #beb55b;
+  --dimYellow: #beb55b;
+  --green: #7bbda4;
+  --dimGreen: #7bbda4;
+  --blue: #8ab3b5;
+  --dimBlue: #8ab3b5;
+  --purple: #a89bb9;
+  --dimPurple: #a89bb9;
+  --grey: #d0c8c6;
+  --dimGrey: #d0c8c6
 }
 
 :root.dark {
