@@ -31,7 +31,7 @@ It's not as simple as *killing your past*, either, it's the opposite -- choosing
 
 I'm fine with flawed or imperfect characters in media, and I'd argue that I have a higher tolerance than most when it comes to forgiving and looking past their mistakes. I'm a huge advocate of rehabilitation and second chances. However, something about bashing your own family members' skulls in pleasure is irredeemable to me. Kyrie kinda just puts the entire experience of Umineko in a bad light to me -- why is Ange being encouraged to cherish her in any form? Same applies for Kinzo; this guy *raped* his own daughter and yet Ryukishi portrays him as a Silly Funny Guy in Episode 8 without ever considering how this could be fucked up. 
 
-# Umineko struggles with treating heinous actions as such, but instead ignores them past a certain point and looks at you strange for feeling thrown off.
+## Umineko struggles with treating heinous actions as such, but instead ignores them past a certain point and looks at you strange for feeling thrown off.
 
 
 
