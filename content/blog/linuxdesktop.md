@@ -86,3 +86,4 @@ Well, the driver situation is unlikely to improve anytime soon, it's just a fund
 
 Additionally, a robust image-based system can also ship with needed kernel modules, including out of tree ones, making for a more appealing proposition for hardware vendors to ship their custom-built version of a Linux distro. I can absolutely see a world where Dell ships out their own immutable distro with certain preinstalled tweaks or packages.
 
+All of this comes from love and appreciation of Linux. I still daily drive it for large amounts of my day, and do ALL of my gaming and most programming, development, automation, machine learning, and a bunch of other stuff on a Linux desktop. I'm just tired of these long-standing issues and would like more people to embrace the future.
