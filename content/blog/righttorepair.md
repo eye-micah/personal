@@ -67,9 +67,11 @@ The approach that works better for most consumers is buying all the hardware the
 
 ### Apple Silicon is the ultimate spit in the face to the entire hobbyist repairable laptop space.
 
+{{ youtube(id="N9bVlpMtSv4" class="textCenter") }}
+
 It's incredibly frustrating knowing the reality is hyper-efficient, proprietary SoCs blow the entire laptop industry out of the water and have made everything else look silly. When you can squeeze 18-20 hours of battery life off current-gen offerings from Apple, when the integrated, unified, and impossible to replace memory and storage offer performance benefits, you start to realize that the tradeoff of it becoming a complete black box for consumers just does not matter. 
 
-It's not even that these kinds of proprietary components have to be entirely locked down -- Apple could easily introduce an ecosystem of proprietary modular components. They just don't care, and they KNOW their audience doesn't either.
+It's not even that these kinds of proprietary components have to be entirely locked down -- Apple could easily introduce an ecosystem of proprietary modular components. They just don't care, and they KNOW their audience doesn't either. It's a smug "fuck you" that would only come from this company being on top for once after shipping garbage laptops from like 2016 all the way to 2019.
 
 Apple will try to skirt around their general locked-down nature with half-assed programs like their self-service repair shit, but at the end of the day they know their customers are NOT opening up their computers. And honestly, neither am I.
 
