@@ -15,7 +15,8 @@ taxonomies = [
 ]
 
 generate_feed = true
-feed_filename = rss.xml
+
+feed_filename = "rss.xml"
 
 [markdown]
 # Whether to do syntax highlighting
