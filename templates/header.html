@@ -10,6 +10,9 @@
     <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#lightMode', trailing_slash=false) | safe }}"></use></svg></button>
     <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#darkMode', trailing_slash=false) | safe }}"></use></svg></button>
   </div>
+  <div class="headRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="{{ get_url(path="atom.xml", trailing_slash=false) }}" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="{{ get_url(path='icons.svg#rss', trailing_slash=false) | safe }}"></use></svg></a>
+  </div>
 </nav>
 {% endif %}
 <script>
