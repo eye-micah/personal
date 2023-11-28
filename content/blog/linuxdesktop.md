@@ -44,10 +44,6 @@ Chromebooks, if you didn't know, utilize this same image-based update system. Th
 
 The Steam Deck is probably the best example of "traditional" Desktop Linux utilizing an immutable filesystem. You can tinker to your heart's content on Deck, mucking around with mods and installing all sorts of weird games, without ever being concerned that the machine won't boot tomorrow morning. Valve deploys ChromeOS-style updates and can ship them out without walking its users through the process of `pacman -Syu` and reading the Arch Linux news every time they want to update their computer. Most gamers will be fine with the offerings of Flatpaks available on Deck, and may not even know what a Flatpak is, just that Chrome and an Epic Games launcher and Dolphin Emulator are right there and easy to download.
 
-## But... why's the traditional model so bad?
-
-I'll use Debian as an example. Debian is a long-running project I have a lot of respect for, but the issues with it as a desktop operating system start to expose itself.
-
 **The reality is that no end user should ever have to interface directly with a package manager. They shouldn't even know what that is.**
 
 What the hell do I mean by this? Think about it this way -- People that use their computers as tools rather than wanting to understand how everything really works just want to be able to access the apps they need. They want Excel or Word or Zoom or Chrome or whatever, and the details in terms of how it's obtained do not really matter.
@@ -55,10 +51,6 @@ What the hell do I mean by this? Think about it this way -- People that use thei
 **If you tell a newcomer to run `sudo apt install X` because it's more reliable than using a GUI tool, you've already lost the plot.**
 
 Package managers should not be a user-facing tool, and their functions should be abstracted by "app stores" and "system updates". If you're a developer or someone that relies on a package manager, then you can easily fire up a container of some sort and go nuts. But Grandma does not need to know what's happening behind the scenes.
-
-Debian is a massive distro that targets many different CPU architectures. It's aiming to be a "universal operating system" and so this means ARM, PowerPC, X86, and anything in between is targeted and supported. It's also meant to be used on all sorts of appliances that just really need to *work* -- web servers, file servers, media servers, your smart fridge, your car. In my opinion, this spreads the volunteer work the Debian Project does very thin.
-
-Debian's incredibly granular dependency resolution is also incredibly brittle when you end up having to integrate commercial software or maybe something that's just too up to date or too old to mesh with the current stable releases's packages. 
 
 Remember Linus Sebastian tried to install Steam on Pop!\_OS and when he couldn't get a basic app used for gaming working, he jumped to the terminal as per System76's recommendations ON THEIR SITE?
 
