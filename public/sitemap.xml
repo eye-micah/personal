@@ -37,6 +37,10 @@
         <loc>https://zandyne.xyz/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://zandyne.xyz/blog/pchobbyists/</loc>
+        <lastmod>2023-12-04</lastmod>
+    </url>
+    <url>
         <loc>https://zandyne.xyz/blog/pipeline/</loc>
         <lastmod>2023-10-05</lastmod>
     </url>
@@ -102,6 +106,9 @@
     </url>
     <url>
         <loc>https://zandyne.xyz/tags/linux/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/linux/page/2/</loc>
     </url>
     <url>
         <loc>https://zandyne.xyz/tags/mac/</loc>

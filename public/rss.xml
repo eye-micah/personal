@@ -7,7 +7,41 @@
       <generator>Zola</generator>
       <language>en</language>
       <atom:link href="https://zandyne.xyz/rss.xml" rel="self" type="application/rss+xml"/>
-      <lastBuildDate>Tue, 28 Nov 2023 00:00:00 +0000</lastBuildDate>
+      <lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>The importance of PCs as a hobby</title>
+          <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://zandyne.xyz/blog/pchobbyists/</link>
+          <guid>https://zandyne.xyz/blog/pchobbyists/</guid>
+          <description>&lt;p&gt;If you asked me when I fell in love with personal computers, and why I was drawn into them as a kid so much, you&#x27;d be wrong if it was because I could be so much more productive. It wasn&#x27;t because of that. It wasn&#x27;t because I could pick up some new skills, learn a programming language, do something I could stick on a resume years later. I was a kid, and mentally I always will be in some ways.&lt;&#x2F;p&gt;
+&lt;p&gt;What drew me into computers as a kid was the immense personalization and sense of ownership that came out of them. I loved being able to install tacky browser themes onto my browser, set fun wallpapers every day, and mess around with Flash games. That was a large chunk of my childhood, and while my PS2 was awesome and had all the games I could ever want, something about the late 2000s and early 2010s internet drew me in. Something about the idea that everyone around me on sites like Newgrounds was just a guy behind a keyboard was incredibly comforting.&lt;&#x2F;p&gt;
+&lt;p&gt;There were so many websites to visit, so much weird shit to do, and while all of it was ultimately just meandering about, who the fuck cares? My world had expanded quite a bit.&lt;&#x2F;p&gt;
+&lt;p&gt;As I got a little older, I got my first computer -- an ancient dual-core Pentium running Vista. I treated that thing amazingly, and it went through some crazy shit with me. I learned the ins and outs of Windows, played a ton of old Steam games like Half-Life, and messed around with crazy desktop enhancements like Rainmeter. As I had increasingly become a loser and lost friends in elementary and middle school, PCs were the main thing grounding me in an online community. &lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s only so much personalization you can do on Windows. The reality is that the UX paradigms are so traditional and unchanging for the amount of widespread use the operating system sees, that there&#x27;s only so much you can do to make it &amp;quot;yours&amp;quot; in a hobbyist sense.&lt;&#x2F;p&gt;
+&lt;p&gt;One day, I installed Linux.&lt;&#x2F;p&gt;
+&lt;p&gt;I went to grab Ubuntu, thinking it was a good beginner&#x27;s option as most of the front-facing Internet seemed to mention it. I also had Linux Mint ready to install (and in retrospect it probably would have given me less issues), but I jumped straight on. But get this -- it wasn&#x27;t normal Ubuntu, which was rocking Unity at the time, it was the pared-down Openbox desktop version for low-end computers, aptly named Lubuntu. I think this crippled my immediate experience and enjoyment of desktop Linux as it felt like using Windows XP at points.&lt;&#x2F;p&gt;
+&lt;p&gt;I had a cheap Realtek USB Wi-Fi adapter I had been using on Windows and it predictably just would not work out of the box on a stripped down Ubuntu. So, I kinda gave up for a little bit.&lt;&#x2F;p&gt;
+&lt;p&gt;But then I happened to install &amp;quot;proper&amp;quot; Ubuntu -- 14.04 or 15.04? Anyways, it absolutely blew my mind. I hadn&#x27;t ever seen something designed like it before, and it was just so unique and interesting to mess around with. I tinkered the living shit out of it, installing icon themes, a fresh GTK theme, fonts, the whole kitchen sink. Absolutely nothing productive was getting done on that computer at that point, but it didn&#x27;t really matter. I finally felt like my computer was actually mine.&lt;&#x2F;p&gt;
+&lt;p&gt;Eventually, I obtained an old low-end Acer laptop, with abysmal battery life. Ended up throwing Ubuntu on that, too. Man, was that an awesome experience. Despite the shitty hardware, I learned quite a bit using that thing. I jumped from desktop to desktop, trying everything out there, until I finally landed on KDE Plasma, which blew my mind in terms of the sheer configurability. It wasn&#x27;t the most stable or robust at the time, but KDE has always been able to pride itself on being incredibly flexible. &lt;&#x2F;p&gt;
+&lt;p&gt;I kept obtaining hand-me-down laptops and desktops for a while, enjoying Linux and getting incredibly familiar with it as a platform. My desktop obsession turned into a tiling window manager obsession, as I saw Cool People on my YouTube timeline showing off the wildest, most productive (allegedly) environments I&#x27;ve ever seen. It was nice just feeling part of a community that encouraged me to really own my own PC. &lt;&#x2F;p&gt;
+&lt;h2 id=&quot;this-isn-t-the-norm-and-that-sucks&quot;&gt;This isn&#x27;t the norm, and that sucks&lt;&#x2F;h2&gt;
+&lt;p&gt;Apple acolytes will insist that computers are an extension of themselves. While I think in concept they&#x27;re right, there&#x27;s a big difference between choosing the blueberry-colored iMac G3 because it fit your personality best and having a blast making it yours and buying a minimalist, utilitarian silver MacBook for work. Computers in general have become infinitely more accessible, functional, and affordable, but at the sacrifice of losing a lot of their toy-like elements that hobbyists enjoy. I&#x27;m not necessarily opposed to this entirely, but I&#x27;m scared to see a world where the personal computer just becomes a box that you turn on to run spreadsheet software and send emails. That&#x27;s what they are to most people in the office, and while I get sometimes shit just needs to get done, there&#x27;s no soul to any of that.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;What the fuck happened?&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If you look now, I&#x27;m typing this on a MacBook Air. At some point, there was a shift in my thinking and a willingness to lean into pragmatism. Obviously this is partly because I&#x27;m employed and have a family to feed and everything, but there are still large gaps in my day sometimes where I could absolutely do the same bullshit. Instead of gaming, I could absolutely mess around with a barebones Arch install and just go nuts. &lt;&#x2F;p&gt;
+&lt;div class=&quot;textCenter&quot;&gt;
+    &lt;iframe
+        src=&quot;https:&#x2F;&#x2F;www.youtube-nocookie.com&#x2F;embed&#x2F;WSh_X2laSDI&quot;
+        allow=&quot;accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot;
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen&gt;
+    &lt;&#x2F;iframe&gt;
+&lt;&#x2F;div&gt;
+&lt;p&gt;Anyway, I want to later touch on the Internet specifically as a whole. I just think this kind of &amp;quot;awakening&amp;quot; I went through with desktop Linux was incredibly important in encouraging my later passion for it -- I would not have the drive to earn a handful of networking and Linux-related certs if it was just something I picked up for work. I think every kid that has even the tiniest bit of interest in technology needs to be sit down in front of an old ThinkPad or something and told to just go nuts unsupervised. MDM issued Chromebooks or Mom&#x27;s MacBook Pro are not the same -- I mean a huge inch and a half thick brick that struggles to pull 3 hours of battery. At least, that&#x27;s what I&#x27;d do.&lt;&#x2F;p&gt;
+&lt;p&gt;Please look at &lt;a href=&quot;https:&#x2F;&#x2F;old.reddit.com&#x2F;r&#x2F;unixporn&quot;&gt;unixporn&lt;&#x2F;a&gt; when you have the chance.&lt;&#x2F;p&gt;
+</description>
+      </item>
       <item>
           <title>Why Scott Pilgrim Takes Off doesn&#x27;t work</title>
           <pubDate>Tue, 28 Nov 2023 00:00:00 +0000</pubDate>
