@@ -1,6 +1,6 @@
 +++
 title = "Self-hosting content: why you should care, and how to start"
-date = 2023-12-04
+date = 2023-12-15
 [taxonomies]
 tags = [ 'linux', 'tech', 'selfhosting', 'homelab', 'networking' ]
 +++
