@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>How to fix Flatpak</title>
+
+
+
+<meta name="title" content="How to fix Flatpak">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zandyne.xyz/blog/flatpak/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="How to fix Flatpak">
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://zandyne.xyz/blog/flatpak/">
+
+<meta property="twitter:title" content="How to fix Flatpak">
+
+
+
+
+<link rel="canonical" href="https://zandyne.xyz/blog/flatpak/">
+
+
+
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://zandyne.xyz/rss.xml">
+
+
+
+<link rel="stylesheet" href="https://zandyne.xyz/css/style.css"/>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+<nav class="navBar">
+  
+  
+  
+  <a href="https://zandyne.xyz" >&#x2F;home&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/about" >&#x2F;about&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/blog" >&#x2F;blog&#x2F;</a>
+  
+  
+  <div class="themeSwitch">
+    <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#lightMode"></use></svg></button>
+    <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#darkMode"></use></svg></button>
+  </div>
+  <div class="headRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="https://zandyne.xyz/rss.xml" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#rss"></use></svg></a>
+  </div>
+</nav>
+
+<script>
+  const setTheme = (theme) => {
+      document.documentElement.className = theme;
+      localStorage.setItem('theme', theme);
+  }
+  const getTheme = () => {
+      const theme = localStorage.getItem('theme');
+      theme && setTheme(theme);
+  }
+  getTheme()
+</script>
+      </header>
+      <main>
+        
+<div><a href="..">..</a>/<span class="metaData">flatpak</span></div>
+<time datetime="2023-12-19">Published on: <span class="metaData">2023-12-19</span></time>
+<h1>How to fix Flatpak</h1>
+
+
+
+<p>Desktop Linux has a lot of potential to be a lot more robust and secure in the same vein as projects roughly based on it like GrapheneOS. The Steam Deck is a very popular device nowadays that happily chugs along running it. But there have to be some significant changes in the way the desktop paradigm is approached and how permissions and access work.</p>
+<p>Flatpak is one piece of a puzzle, but I feel its sandboxing functionality is not only unhelpful, but potentially dangerous as it lulls users into a false sense of security.</p>
+<h2 id="what-s-the-point-of-sandboxing-and-permissions">What's the point of sandboxing and permissions?</h2>
+<p>In a nutshell, functional sandboxing gives the user choice over how, when, and where applications are able to do anything. This is something that is fundamentally at odds with the way UNIX is designed, where the expectation was certain directories were far more crucial than a user's home directory or configs. </p>
+<p>The reality is the vast majority of computers (mobile, cloud, server, desktop, IoT) are <em>single-user</em>. There is one user that is assigned in each of your Kubernetes or Docker container, one user on your iPhone, and generally one or two users on a desktop computer or a laptop. </p>
+<p><strong>Pretty much any meaningful data on an end-user's computer is sitting in $HOME or C:\Users\username.</strong></p>
+<p align="center" width="100%" length="100%">
+<img src="/1337.webp">
+</p>
+<p>Operating systems are easy to reinstall if broken, it's not a big deal. But your precious Chun-Li goon pics are widely accessible in a single folder and anyone who wants access will be able to see them. I'm not just talking about physical access but all sorts of script kiddie tools to nab someone's private info.</p>
+<p>If you're someone working in an enterprise environment, IT, etc., you probably have some ssh keys lying around on your home folder. I'm almost certain they're not gated behind some kind of security key or fingerprint scan -- anyone could easily just snatch them from you if given the chance.</p>
+<h2 id="okay-but-what-is-flatpak-i-m-not-a-linux-user">Okay, but what IS flatpak? I'm not a Linux user.</h2>
+<p>Flatpak is an application distribution format that uses a lot of built-in Linux tech for isolation, sandboxing, and containerization. At its core, it's a bunch of tooling built around bubblewrap, a sandboxing tool that doesn't require root access. </p>
+<p>Ideally, application distribution becomes easier when developers now have to target only one runtime and one version of a package. It lightens the load off distro maintainers as they can leave the challenge of packaging all their software up to third-parties (like it's done on literally every other platform).</p>
+<p>Flatpak's most widespread use currently is on the Steam Deck, as on the immutable read-only filesystem there is no way to invoke a system-level package manager. A lot of apps have migrated over to Flatpak: OBS Studio and Firefox being the most notable.</p>
+<p>It's absolutely crucial that a web browser is updated promptly and maintained well, and Mozilla's <em>officially maintained</em> build of Firefox is a great way to ensure that. It avoid thes incredibly sloppy job that <a href="https://www.debian.org/">certain distros</a> have done trying to keep the most <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5847">vulnerable</a> and crucial part of a desktop user's system safe.</p>
+<p>So, logically, the main thing you want to have granular control over is your home directory. Why should you give much of a shit if an application can access /proc or see mostly default config files strewn throughout your filesystem? There's little to nothing there worth protecting.</p>
+<p>Why is it, then, that a ton of Flatpaks ship with full home directory access and everything else turned off? Not only does this not prevent any meaningful attacks to a desktop user, but it hurts its ability to be an interoperable and well-integrated app on your system.</p>
+<p>When you install Flatpaks currently, they come with pre-baked permissions that aren't really communicated well. Packagers have made assumptions in terms of what folders and resources applications can access, which is the exact opposite of how sandboxing on a desktop should work.</p>
+<p>Everything should be an explicit choice of the user, within reason. Why does Chromium ship with FULL home directory access?</p>
+<p align="center" width="100%" length="100%">
+<img src="/chromium.png">
+</p>
+<p>This is solved through having a robust permissions model that happens on an OS level rather than opt-in on some applications.</p>
+<p>If you've ever used a Mac,</p>
+<p>or an iPhone,</p>
+<p>or an Android phone,</p>
+<p>or a UWP app installed on Windows,</p>
+<p>you have been enjoying some degree of a sandbox already. Applications have to ask for access to specific folders, system resources, keystrokes, webcam and mic, and the list goes on. If you install Tinder on Google Play, it asks you after starting the app for location access. If you share your photos, it also gives you the ability to only pass through and share the ones you like. This is handled through sane, OS-level prompts conveyed to the user in a more comprehensible way.</p>
+<p>&quot;Computers are more complex than phones&quot; you might be thinking, but the same concept still applies. Look no further than macOS enforcing this across the board and still having a healthy app ecosystem.</p>
+<p>Linux servers have mandatory access control systems like SELinux and AppArmor that are a more sophisticated version of this concept, but they don't really do much to help a desktop user. </p>
+<p>Having an OS-level sandbox (and using Linux's existing tools like <a href="https://flatpak.github.io/xdg-desktop-portal/">portals</a> to grant the access) would not only make the sandboxing of tools like flatpak more reasonable (assuming it would integrated properly with flatpak), but also give a layer of protection to all sorts of other shit you install on your computer.</p>
+<p>The next step, I guess, would be binary signing libraries and applications, but that's a whole 'nother article.</p>
+
+
+<p class="tagsData">
+
+
+<a href="/tags/linux">&#47;linux&#47;</a>
+
+<a href="/tags/tech">&#47;tech&#47;</a>
+
+<a href="/tags/foss">&#47;foss&#47;</a>
+
+
+</p>
+
+      </main>
+      <footer>
+        <hr>
+<div class=footContainer>
+  <div class="footLeft">
+   <p align="center">To live is to not run away</p> 
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>

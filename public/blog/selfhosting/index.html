@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>Self-hosting content: why you should care, and how to start</title>
+
+
+
+<meta name="title" content="Self-hosting content: why you should care, and how to start">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zandyne.xyz/blog/selfhosting/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="Self-hosting content: why you should care, and how to start">
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://zandyne.xyz/blog/selfhosting/">
+
+<meta property="twitter:title" content="Self-hosting content: why you should care, and how to start">
+
+
+
+
+<link rel="canonical" href="https://zandyne.xyz/blog/selfhosting/">
+
+
+
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://zandyne.xyz/rss.xml">
+
+
+
+<link rel="stylesheet" href="https://zandyne.xyz/css/style.css"/>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+<nav class="navBar">
+  
+  
+  
+  <a href="https://zandyne.xyz" >&#x2F;home&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/about" >&#x2F;about&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/blog" >&#x2F;blog&#x2F;</a>
+  
+  
+  <div class="themeSwitch">
+    <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#lightMode"></use></svg></button>
+    <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#darkMode"></use></svg></button>
+  </div>
+  <div class="headRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="https://zandyne.xyz/rss.xml" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#rss"></use></svg></a>
+  </div>
+</nav>
+
+<script>
+  const setTheme = (theme) => {
+      document.documentElement.className = theme;
+      localStorage.setItem('theme', theme);
+  }
+  const getTheme = () => {
+      const theme = localStorage.getItem('theme');
+      theme && setTheme(theme);
+  }
+  getTheme()
+</script>
+      </header>
+      <main>
+        
+<div><a href="..">..</a>/<span class="metaData">selfhosting</span></div>
+<time datetime="2023-12-15">Published on: <span class="metaData">2023-12-15</span></time>
+<h1>Self-hosting content: why you should care, and how to start</h1>
+
+
+
+<p><em>Want to make clear that I'm new to this whole space, and will probably get some stuff wrong. If anything stands out as being inaccurate, don't shy away from letting me know on any of my socials.</em></p>
+<p>Ever use Netflix and just really enjoy a series? Maybe it wasn't the greatest thing ever, and maybe you just watched it only once and liked it, but it stays in the back of your brain.</p>
+<p>Doesn't it suck to realize when you go to look for it again that Netflix has decided for some reason you no longer deserve to have that content? Nothing you can do about it, and you're throwing at least $7 a month at them. </p>
+<p>There are a ton of examples of shit like this. The modern Internet and the select few services that control content nowadays for the majority of people are able to have a stranglehold on what you can see, when you can see it, and how. Using the wrong browser? Enjoy DRM blocking you from enjoying 4K video streaming, even though your hardware is fully capable. Paid for a movie or game or something? Who cares, it'll be stripped away from you on a whim. Tech companies do not care, and do not have a vested interest in caring either.</p>
+<p>The thing is, it's become easier and easier to fire up functional alternatives to a lot of ephemeral, subscription-based software or restrictive, walled garden content. The barrier to entry has never been lower. I'm gonna direct y'all to some very useful tools and let you run from there.</p>
+<h2 id="jellyfin-and-plex">Jellyfin and Plex</h2>
+<p>Netflix just kinda... sucks? None of these streaming services offer particularly good user experience nowadays and there's all sorts of frustrating limitations involved. You don't <em>have</em> to tolerate it. There are functional alternatives that respect you as a user much more.</p>
+<h3 id="plex">Plex</h3>
+<p><a href="https://plex.tv">Plex</a> is better than the alternative of a Netflix or Disney+, but it's somewhat locked down and has some frustrating limitations. However, it's very mature and has been around for quite a while. This offers a lot of immediate advantages:</p>
+<ul>
+<li>Plex has official apps on a ton of devices, like consoles, smart TVs, and phones.</li>
+<li>Plex is more thoroughly documented.</li>
+<li>Plex's UI is more polished. There are a handful of minor quirks you have to put up with on Jellyfin.</li>
+</ul>
+<p>Plex, however, is limited in terms of the kinds of hardware you can use for transcoding, and is a lot more resource intensive. It might not be the best choice if you're someone on a weaker or older hardware.</p>
+<h3 id="jellyfin">Jellyfin</h3>
+<p><a href="https://jellyfin.org/">Jellyfin</a> is an open-source fork of the older Emby media server. It's very flexible, lightweight, and it's what I personally use. It's not quite as polished, but it works great on my AMD and Intel hardware.</p>
+<p>&quot;Well, how do I set these up?&quot;</p>
+<p>Glad you asked. Both programs offer easy downloads for Windows, Linux, and macOS. You can always containerize Jellyfin, but that requires learning how to use Docker/LXD/Kubernetes tooling and that might not really make sense for your use case. </p>
+<p>Once the program's installed, see if you can set up your GPU to transcode and accelerate video. You can access Jellyfin's web client on its default port, 8096, and Plex on 32400. From the machine you're running the service on, just enter its IP followed by the port number. If you're typing from the machine running the service, &quot;localhost&quot; or &quot;127.0.0.1&quot; will point to it. </p>
+<p>These services are pretty self-explanatory and media organization is pretty easy. Your legally obtained Linux ISOs and homework is all organized neatly with chapter organization and subtitles and everything. </p>
+<h2 id="music">Music</h2>
+<p>Music discovery is undeniably useful, but I've personally found that a large music library I've accumulated over time has allowed me to sit through more full albums. It's nice to have control over everything and be able to hear all of the niche stuff that isn't available on Spotify or Apple Music.</p>
+<p>There's a lot of self-hosted music services out there, just choose one. </p>
+<h3 id="airsonic"><a href="https://airsonic.github.io/">Airsonic</a></h3>
+<p>This is what I use. While it took a decent bit of time for it to properly cache and locate all of my music, once that was done it ran great. There are great clients on Android and iOS, a web client if you want that, and plenty of desktop clients.</p>
+<h3 id="navidrome"><a href="https://www.navidrome.org/">Navidrome</a></h3>
+<p>This is a newer option, and it's a little rough around the edges. I wouldn't recommend this unless you know how to spin up a Docker container (which, to be fair, isn't the most difficult thing).</p>
+<h2 id="pi-hole">Pi-hole</h2>
+<p><a href="https://pi-hole.net/">Pi-hole</a> is a DNS sinkhole designed to be used on low-power hardware like a Raspberry Pi computer. It's great for network-level blocking of ads, telemetry, and even entire domains. This can save tons of data, which is appealing on mobile devices, and generally makes the internet a little more usable and more lean. Pi-hole can run on pretty much anything. Personally, I'd recommend running this on its own dedicated device, or at least isolated from the other services running on it. </p>
+<p>Honestly, you can get away with using a virtual machine for this, if you want an easy setup and don't have another computer on hand that's running Linux. Just make sure to use <em>bridged network</em> on the virtual machine so it has its own IP address exposed to your LAN. I recommend Debian or Ubuntu: you can install a desktop environment in the VM to make it easier and just run the one-liner here to set it up: </p>
+<p><code>curl -sSL https://install.pi-hole.net | bash</code></p>
+<p>You can use it as a full DHCP server, but for now, I'd recommend just going through the basic instrucitons on its site and using it as the default: a DNS server. </p>
+<p>You can set your router to use the Pi as its only DNS in its own settings, but you can also just add its IP in each of your devices' network configuration. </p>
+<h2 id="static-ip">Static IP</h2>
+<p>If you're able to access your router's settings, try to lease the computer running certain services a static IP. This will ensure that the DHCP server won't decide to give it a different IP address in the future, ensuring that everything's accessible.</p>
+<p>If you're using Pi-hole, YOU MUST DO THIS for the device running the service.</p>
+<h2 id="dns">DNS</h2>
+<p>Punching in an IP address every time you want to access your sites is a little inconvenient, so why not set things up with a dynamic DNS service and reverse proxying URLs. This video is perfectly functional and helpful and I'm going to link to it rather than type out basically identical instructions.</p>
+<div class="textCenter">
+    <iframe
+        src="https://www.youtube-nocookie.com/embed/qlcVx-k-02E"
+        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen>
+    </iframe>
+</div>
+<p>You COULD just use Pi-hole for this. It's up to you.</p>
+<p>How do I access these services away from home?</p>
+<h2 id="tailscale">Tailscale</h2>
+<p><a href="https://tailscale.com/">Tailscale</a> is awesome, and it's one of the first tools I recommend to people that want a secure method of accessing their shit from home. It's really just a matter of installing the program on each device you're interested in, and logging in when asked for credentials.</p>
+<p>If you're connected to the Tailscale VPN, all of your services hosted from home are accessible. </p>
+<p>Make sure it's installed on each device that you want accessible.</p>
+<h2 id="what-about-wireguard-openvpn">What about Wireguard/OpenVPN?</h2>
+<p>If you're asking that question, this guide probably isn't for you... a simple WireGuard VPN to home is easier to set up and provides better bandwidth, but it requires you to expose a port. I personally use <a href="https://pivpn.io/">PiVPN</a> and it works great, but Tailscale &quot;just works&quot; for most users. </p>
+<h2 id="vps-aws-etc">VPS, AWS, etc.</h2>
+<p>&quot;Self-hosting&quot; generally means... hosting your own content, but a VPS is like the next step removed from that. If you choose a good service, you can have a functional server in the cloud that can be accessed like anything else. On some networks (CGNAT), this might be the only way to have some control. A lot of the stuff I suggested works fine on a VPS you can rent out. </p>
+<p>Owning the media you consume is a challenge, and requires more of a learning curve than just paying for a bunch of monthly subscriptions. However, what you get out of it is way more control and flexibility over how you consume content, when you want to, and where you want to. </p>
+
+
+<p class="tagsData">
+
+
+<a href="/tags/linux">&#47;linux&#47;</a>
+
+<a href="/tags/tech">&#47;tech&#47;</a>
+
+<a href="/tags/selfhosting">&#47;selfhosting&#47;</a>
+
+<a href="/tags/homelab">&#47;homelab&#47;</a>
+
+<a href="/tags/networking">&#47;networking&#47;</a>
+
+
+</p>
+
+      </main>
+      <footer>
+        <hr>
+<div class=footContainer>
+  <div class="footLeft">
+   <p align="center">To live is to not run away</p> 
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>

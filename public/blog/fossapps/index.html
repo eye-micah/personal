@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+<meta name="robots" content="index, follow">
+
+
+
+
+
+
+
+
+
+
+<title>FOSS apps you should be using</title>
+
+
+
+<meta name="title" content="FOSS apps you should be using">
+
+
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://zandyne.xyz/blog/fossapps/">
+
+<meta property="og:site_name" content="">
+
+
+<meta property="og:title" content="FOSS apps you should be using">
+
+
+
+
+
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://zandyne.xyz/blog/fossapps/">
+
+<meta property="twitter:title" content="FOSS apps you should be using">
+
+
+
+
+<link rel="canonical" href="https://zandyne.xyz/blog/fossapps/">
+
+
+
+
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="https://zandyne.xyz/rss.xml">
+
+
+
+<link rel="stylesheet" href="https://zandyne.xyz/css/style.css"/>
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        
+<nav class="navBar">
+  
+  
+  
+  <a href="https://zandyne.xyz" >&#x2F;home&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/about" >&#x2F;about&#x2F;</a>
+  
+  
+  
+  
+  <a href="https://zandyne.xyz/blog" >&#x2F;blog&#x2F;</a>
+  
+  
+  <div class="themeSwitch">
+    <button class="themeButton light" onclick="setTheme('light')" title="Light mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#lightMode"></use></svg></button>
+    <button class="themeButton dark" onclick="setTheme('dark')" title="Dark mode"><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#darkMode"></use></svg></button>
+  </div>
+  <div class="headRight">
+    <a class="icons__background" target="_blank" rel="noopener noreferrer" href="https://zandyne.xyz/rss.xml" title="Subscribe via RSS for updates."><svg class="icons icons__background"><use href="https://zandyne.xyz/icons.svg#rss"></use></svg></a>
+  </div>
+</nav>
+
+<script>
+  const setTheme = (theme) => {
+      document.documentElement.className = theme;
+      localStorage.setItem('theme', theme);
+  }
+  const getTheme = () => {
+      const theme = localStorage.getItem('theme');
+      theme && setTheme(theme);
+  }
+  getTheme()
+</script>
+      </header>
+      <main>
+        
+<div><a href="..">..</a>/<span class="metaData">fossapps</span></div>
+<time datetime="2023-10-05">Published on: <span class="metaData">2023-10-05</span></time>
+<h1>FOSS apps you should be using</h1>
+
+
+
+<p><strong>Too much modern software is designed to fuck you in the ass.</strong></p>
+<p>And so many people put up with it. This isn't me looking down on people from my ivory tower, I'm forced to use some of it too. BUT there's a way out sometimes.</p>
+<p>Free and open-source software is software where you can see all of the ingredients all laid out for you -- the code is easily accessible and available to anyone and instead of it being exclusive to a big company, it's something anyone can contribute to. The best open source projects are massive collaborative efforts like the Linux kernel, Android, a large chunk of the modern web, etc. </p>
+<p>And desktop apps are no different. Turns out there's a lot of alternatives to paywall-ridden, subscription-based software that barely works and nags you about expiring trial periods. </p>
+<p>I'm going to just name applications I actually like that I make use of, and divide them by groups.</p>
+<h1 id="video-editing">Video editing</h1>
+<p>Unfortuantely, I haven't been able to completely abandon commercial video editors. I need to use <a href="https://www.blackmagicdesign.com/products/davinciresolve">DaVinci Resolve</a> for large, potentially collaborative projects (still a great editor, btw). Outside of that, I've been able to move any fun personal projects and the vast majority of my video editing to open source alternatives.</p>
+<p><a href="https://www.olivevideoeditor.org/">Olive</a> is an up and coming editor that's pretty smooth and performant, but is still in active development and is currently technically an alpha release. Despite this, I've happily done tons of stuff with this editor, including complex keyframed visuals. Highly recommend this to anyone looking to just have a smooth, modern editor.</p>
+<p><a href="https://kdenlive.org/en/">Kdenlive</a> and the technologies and frameworks that it's made out of have been around for a while. If you like Sony Vegas-like UI, it might be the right option for you. The issue with Kdenlive is it lags behind in terms of GPU acceleration, so if you have a beefy GPU, that shit's going to be almost completely dormant using this. Pretty solid tried and true option.</p>
+<h1 id="drawing-and-painting">Drawing and painting</h1>
+<p><a href="https://www.gimp.org/">GIMP</a> has quite a learning curve and pales in comparison in terms of functionality to Photoshop, but I've done a ton of image editing and visuals with it. </p>
+<p><a href="https://krita.org/en/">Krita</a> is a great painting software that has nice, intuitive UI. Haven't found anything that quite matches what it can do in terms of functionality. </p>
+<p><a href="https://inkscape.org/">Inkscape</a> is a vector image editing tool, and while it has a bit of a learning curve too, I've found it to be just as powerful as the alternatives like Adobe Illustrator. I really like this one.</p>
+<h1 id="web-browsers">Web browsers</h1>
+<p>In my personal opinion, there's very little reason to actively use a browser that isn't open-source. If you're like me, you're inputting a ton of personal information into these things, and personally I'd rather have something I use so extensively vetted by a community, with its vulnerabilities and functionality laid bare. </p>
+<p>You don't have to look far:</p>
+<p><a href="https://www.mozilla.org/en-US/firefox/new/">Firefox</a> has been around for a while, and it's also been <em>really fucking fast</em> for a while. Uses less RAM than Chrome and friends, and is a little more respectful to your privacy. There's also a lot of <a href="https://old.reddit.com/r/FirefoxCSS/">customization</a> you can do to the way it looks, if that's your thing.</p>
+<p>The thing about most modern web browsers is they share an engine with Chrome, the Blink engine. It's kind of concerning how the entire modern web just revolves around this one technology and if some vulnerability appears, everything suffers. Electron apps like Discord, Slack, and Spotify that are running in mini web-browsers also use Blink. </p>
+<p>Firefox stands as the one big non-Chrome browser you can use nowadays, so outside of just having a lot of practical benefits you can feel good inside knowing you're fighting against Google's monopoly or something. I dunno, probably won't do much. Fuck Google.</p>
+<p>However, if you really want to use a Chromium-based browser, I recommend <a href="https://brave.com/">Brave</a>. It's got the kitchen sink with it out of the box: adblocking, a BitTorrent client, and weird crypto shit that you can disable, thankfully. </p>
+<h1 id="kde-connect">KDE Connect</h1>
+<p>If you have an Android and a Windows or Linux computer, you're probably missing out on one of the most useful tools I've run into recently: <a href="https://kdeconnect.kde.org/">KDE Connect</a>. Being able to view battery life, get notifs on my PCs, reply to SMS messages from my PC, ring my phone, control music playback, and share files seamlessly has made my life a lot easier. You can get a Mac &amp; iPhone-like integration without buying overpriced metal slabs :)</p>
+<p>This list is by no means exhaustive, but it kinda drives me insane seeing people settle for crappy commercial software when sometimes there are perfectly good alternatives they could switch to with way less issues. Give some of them a look.</p>
+<p>M.</p>
+
+
+<p class="tagsData">
+
+
+<a href="/tags/foss">&#47;foss&#47;</a>
+
+
+</p>
+
+      </main>
+      <footer>
+        <hr>
+<div class=footContainer>
+  <div class="footLeft">
+   <p align="center">To live is to not run away</p> 
+  </div>
+</div>
+
+      </footer>
+    </div>
+  </body>
+</html>

@@ -1,9 +1,13 @@
 +++
 title = "About"
 +++
-Black weeb in their early 20s. In a perpetual old hip-hop and R&B phase, but I'm open to listening to pretty much anything. I make a thing or two on the side.
+Black weeb stuck in a perpetual hip-hop and R&B phase. 
 
-IT/DevOps/networking, Linux nerd, gay (?)
+I'm a somewhat experienced video editor, and do a little bit of music production. Huge fan of 5th/6th/7th gen video games.
+
+I love cooking and baking, even if I'm not the best at it.
+
+IT/DevOps/networking, Linux nerd. I stay busy.
 
  - [Twitter](https://twitter.com/kamuimixxx)
  - [Backloggd](https://www.backloggd.com/u/zandyne_/)
