@@ -1,9 +1,9 @@
 +++
 title = "About"
 +++
-Black weeb in their early 20s. Don't care too much about gender. Leftist. 
+Black weeb in their early 20s. In a perpetual old hip-hop and R&B phase, but I'm open to listening to pretty much anything. I make a thing or two on the side.
 
-In a perpetual old hip-hop and R&B phase, but I'm open to listening to pretty much anything. I make a thing or two on the side.
+IT/DevOps/networking, Linux nerd, gay (?)
 
  - [Twitter](https://twitter.com/kamuimixxx)
  - [Backloggd](https://www.backloggd.com/u/zandyne_/)
