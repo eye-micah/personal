@@ -9,9 +9,12 @@ I love cooking and baking, even if I'm not the best at it.
 
 IT/DevOps/networking, Linux nerd. I stay busy.
 
- - [Twitter](https://twitter.com/kamuimixxx)
- - [Backloggd](https://www.backloggd.com/u/zandyne_/)
- - [Bluesky](https://bsky.app/profile/zandyne.xyz)
- - [Discord](https://discord.com/users/828839103381504023)
+<div style="text-align: center;">
+<a href="https://www.backloggd.com/u/zandyne_/">Backloggd</a> -
+<a href="https://bsky.app/profile/zandyne.xyz">Bluesky</a> -
+<a href="https://discord.com/users/828839103381504023">Discord</a>
+</div>
+<br/>
 
-{{ youtube(id="Yu7ABW7o6yw" class="textCenter") }}
+
+<center><video class="vids" controls autoplay><source src="/champloo.webm"></video></center>
