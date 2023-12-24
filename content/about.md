@@ -17,5 +17,5 @@ IT/DevOps/networking, Linux nerd. I stay busy.
 <br/>
 
 
-<center><video width="320" class="vids" controls><source src="/champloo.mp4" style="max-width: 480px;" ></video></center>
+<center><video width="320" class="vids" controls><source src="/champloo.mp4"></video></center>
 
