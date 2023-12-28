@@ -23,13 +23,31 @@ jobs:
         run: zola build
 
       - name: Scan the host key
-        run: mkdir -p ~/.ssh/ && ssh-keyscan -p 5555 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
+        run: mkdir -p ~/.ssh/ && ssh-keyscan -p 22 -H $DEPLOY_SERVER >> ~/.ssh/known_hosts
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
 
+      - name: Echo secret to usable config file
+        run: 'echo "$CADDYFILE" > Caddyfile'
+        env:
+          CADDYFILE: ${{ secrets.CADDYFILE }}
+
+      - name: Copy Caddyfile with secrets
+        run: rsync -avx -e 'ssh -p 22' Caddyfile $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/caddy/Caddyfile
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+
+
+      - name: Rebuild Caddy docker container
+        run: ssh -t $DEPLOY_USERNAME@$DEPLOY_SERVER 'docker run -d --name caddy -p 80:80 -p 443:443 -v /home/site/caddy/caddy_data:/data:z -v /home/site/caddy/caddy_config:/config:z -v /home/site/caddy/Caddyfile:/etc/caddy/Caddyfile:z iarekylew00t/caddy-cloudflare:latest'
+        env:
+          DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
+          DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
+
      
       - name: Deploy the website
-        run: rsync --exclude '.well-known' -avx -e 'ssh -p 5555' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/usr/share/nginx/public/
+        run: rsync --exclude '.well-known' -avx -e 'ssh -p 22' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/public/
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
