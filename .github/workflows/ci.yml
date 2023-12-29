@@ -33,7 +33,7 @@ jobs:
           CADDYFILE: ${{ secrets.CADDYFILE }}
 
       - name: Copy Caddyfile with secrets
-        run: rsync -avx -e 'ssh -p 22' ~/Caddyfile $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/caddy/Caddyfile
+        run: rsync --mkpath -avx -e 'ssh -p 22' ~/Caddyfile $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/caddy/Caddyfile
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
