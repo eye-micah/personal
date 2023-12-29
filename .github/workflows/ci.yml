@@ -28,12 +28,12 @@ jobs:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
 
       - name: Echo secret to usable config file
-        run: 'echo "$CADDYFILE" > /tmp/Caddyfile'
+        run: echo "$CADDYFILE" > ~/Caddyfile
         env:
           CADDYFILE: ${{ secrets.CADDYFILE }}
 
       - name: Copy Caddyfile with secrets
-        run: rsync -avx -e 'ssh -p 22' /tmp/Caddyfile $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/caddy/Caddyfile
+        run: rsync -avx -e 'ssh -p 22' ~/Caddyfile $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/caddy/Caddyfile
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
