@@ -47,7 +47,7 @@ jobs:
 
      
       - name: Deploy the website
-        run: rsync --exclude '.well-known' -avx -e 'ssh -p 22' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/public/
+        run: rsync --mkpath --exclude '.well-known' -avx -e 'ssh -p 22' --delete --exclude '.ssh' public/ $DEPLOY_USERNAME@$DEPLOY_SERVER:/home/site/public/
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
