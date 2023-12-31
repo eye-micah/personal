@@ -27,7 +27,7 @@ The Press Turn system from Nocturne evolves here and provides some of the most s
 
 **Kareshi Kanojo no Jijou (1998)**
 
-Kare Kano's anime adaptation is peak Hideaki Anno, taking advantage of all the directorial tricks he grew accustomed to in past works like Evangelion and Nadia. I don't think the anime "falls off" at all, and instead feel it maintains a pretty consistent level of quality. I think this is a great example of a solid director elevating the experience of source material. I've since then read the manga and it doesn't hit nearly as hard for me as it does with that Gainax touch. No respect to Masami Tsuda, though.
+Kare Kano's anime adaptation is peak Hideaki Anno, taking advantage of all the directorial tricks he grew accustomed to in past works like Evangelion and Nadia. I don't think the anime "falls off" at all, and instead feel it maintains a pretty consistent level of quality. I think this is a great example of a solid director elevating the experience of source material. I've since then read the manga and it doesn't hit nearly as hard for me as it does with that Gainax touch. No disrespect to Masami Tsuda, though.
 
 **Rule of Rose (2006)**
 
