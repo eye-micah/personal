@@ -10,6 +10,10 @@
         <loc>https://zandyne.xyz/blog/</loc>
     </url>
     <url>
+        <loc>https://zandyne.xyz/blog/2023media/</loc>
+        <lastmod>2023-12-31</lastmod>
+    </url>
+    <url>
         <loc>https://zandyne.xyz/blog/blackculture/</loc>
         <lastmod>2023-09-22</lastmod>
     </url>
@@ -41,12 +45,19 @@
         <loc>https://zandyne.xyz/blog/page/1/</loc>
     </url>
     <url>
+        <loc>https://zandyne.xyz/blog/page/2/</loc>
+    </url>
+    <url>
         <loc>https://zandyne.xyz/blog/pchobbyists/</loc>
         <lastmod>2023-12-04</lastmod>
     </url>
     <url>
         <loc>https://zandyne.xyz/blog/pipeline/</loc>
         <lastmod>2023-10-05</lastmod>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/blog/rgg6/</loc>
+        <lastmod>2023-12-23</lastmod>
     </url>
     <url>
         <loc>https://zandyne.xyz/blog/righttorepair/</loc>
@@ -130,6 +141,18 @@
         <loc>https://zandyne.xyz/tags/mac/page/1/</loc>
     </url>
     <url>
+        <loc>https://zandyne.xyz/tags/manga/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/manga/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/movies/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/movies/page/1/</loc>
+    </url>
+    <url>
         <loc>https://zandyne.xyz/tags/networking/</loc>
     </url>
     <url>
@@ -146,6 +169,12 @@
     </url>
     <url>
         <loc>https://zandyne.xyz/tags/politics/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/sega/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/sega/page/1/</loc>
     </url>
     <url>
         <loc>https://zandyne.xyz/tags/selfhosting/</loc>
@@ -173,5 +202,11 @@
     </url>
     <url>
         <loc>https://zandyne.xyz/tags/windows/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/yakuza/</loc>
+    </url>
+    <url>
+        <loc>https://zandyne.xyz/tags/yakuza/page/1/</loc>
     </url>
 </urlset>
