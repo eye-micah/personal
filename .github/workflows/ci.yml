@@ -40,7 +40,7 @@ jobs:
 
 
       - name: Rebuild Caddy docker container
-        run: ssh -t $DEPLOY_USERNAME@$DEPLOY_SERVER 'docker rm --force caddy;docker run -d --name caddy -p 80:80 -p 443:443 -v /home/site/public:/site -v /home/site/caddy/caddy_data:/data:z -v /home/site/caddy/caddy_config:/config:z -v /home/site/caddy/Caddyfile:/etc/caddy/Caddyfile:z iarekylew00t/caddy-cloudflare:latest'
+        run: ssh -t $DEPLOY_USERNAME@$DEPLOY_SERVER 'docker rm --force caddy;docker run -d --name caddy -p 80:80 -p 443:443 -v /home/site/public:/site -v /home/site/public2:/site2 -v /home/site/caddy/caddy_data:/data:z -v /home/site/caddy/caddy_config:/config:z -v /home/site/caddy/Caddyfile:/etc/caddy/Caddyfile:z iarekylew00t/caddy-cloudflare:latest'
         env:
           DEPLOY_SERVER: ${{ secrets.DEPLOY_SERVER }}
           DEPLOY_USERNAME: ${{ secrets.DEPLOY_USERNAME }}
